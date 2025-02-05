@@ -194,7 +194,7 @@ dongu1:
 	MOV dizi[SI],DL
 	POP DX
 	
-	MOV DX,SI ;; DX = SI+1 döndür
+	MOV DX,SI ;; DX = SI+1 dÃ¶ndÃ¼r
 
 	RET
 arrange_pivot ENDP
@@ -292,7 +292,7 @@ repeat:
   JNE positive
 		; If the number is negative (if we are in the '-' character)
 		NEG BX
-		JMP negative  ; döngüyü bitir
+		JMP negative  ; dÃ¶ngÃ¼yÃ¼ bitir
   positive:
   sub  al, 48 ;convert ascii character to number
 
